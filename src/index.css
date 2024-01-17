@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input{
+  width: 500px;
+  height: 50px;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 2; }
+}
+
+.logo {
+  animation: fadeIn 2s ease-in; 
+  width:230px
+}
+.box1:hover{
+  border: 1px solid red;
+}
+.star{
+  font-size: larger;
+  margin-top: 30px;
+  margin-left: -10px;
+  background-color: rgb(49, 49, 49);
+  padding: 8px;
+  width: 100px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  
+  border-radius: 8px;
+
+
+}
+.goback{
+
+margin-right: 550px;
+}
+.author{
+  color: black;
+  font-weight:bold;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.title{
+  margin-top: 10px;
+}
+.box1{
+  width:250px;
+  max-height: 500px;
+}
+.toggle{
+  border-radius:5px ;
+  padding: 10px;
+}
+
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.background{
+  background-image: url("https://toppng.com/uploads/preview/books-library-shelves-lighting-11570081219wwscdinbok.jpg");
+}
+
+
+.home{
+  margin-left: 120px;
+  margin-top: 30px;
+}
+.container2{
+  background-image: url("https://toppng.com/uploads/preview/books-library-shelves-lighting-11570081219wwscdinbok.jpg");
+}
+.free{
+  background-color: rgb(11, 177, 11);
+  width: 70px;
+  margin-top: 20px;
+  margin-left: 40px;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+.down{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.star{
+  margin-right: 20px;
+  color: grey;
+ 
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+.logo{
+  display: none;
+}
+.search{
+  display: none;
+}
+.input{
+  max-width: 200px;
+}
+}
+
+
+/*forms*/
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 2; }
+}
+.logo2{
+  animation: fadeIn 2s ease-in; 
+width: 150px;
+}
+.create{
+  margin-left: 50px;
+  
+}
+
+
+
